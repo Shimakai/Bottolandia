@@ -20,4 +20,6 @@ async def on_ready():
 async def greet(ctx):
     await ctx.send("ZA WARUDO")
 
+keep_alive()
+token = os.environ.get("DISCORD_BOT_SECRET")    
 bot.run(TOKEN)
